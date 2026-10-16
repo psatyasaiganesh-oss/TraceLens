@@ -1,0 +1,50 @@
+{
+  "analysis": {
+    "slow_bottleneck_accuracy_percent": 100.0,
+    "slow_bottleneck_correct": 50,
+    "slow_traces": 50,
+    "topology_edges": 5,
+    "topology_services": 6
+  },
+  "duration_ms": 913.12,
+  "ingestion": {
+    "conflicting_duplicates_rejected": 1,
+    "duplicate_deliveries_idempotent": 80,
+    "invalid_payloads_rejected": 5,
+    "spans_submitted": 4800,
+    "traces_submitted": 800
+  },
+  "overview": {
+    "active_traces": 0,
+    "bottleneck_counts": {
+      "inventory": 50,
+      "payments": 750
+    },
+    "dropped_traces": 664,
+    "error_traces": 20,
+    "finalized_traces": 800,
+    "kept_traces": 136,
+    "latency_ms": {
+      "p50": 32.0,
+      "p95": 112.0,
+      "p99": 112.0
+    },
+    "observed_spans": 4800,
+    "retained_spans": 816,
+    "sampling_reasons": {
+      "error": 20,
+      "not_sampled": 664,
+      "probabilistic": 76,
+      "slow": 40
+    },
+    "span_storage_reduction_percent": 83.0
+  },
+  "sampling": {
+    "anomalous_traces": 60,
+    "error_traces": 20,
+    "head_10_percent_anomalies_kept": 8,
+    "tail_anomalies_kept": 60,
+    "tail_anomaly_retention_percent": 100.0
+  },
+  "success": true
+}

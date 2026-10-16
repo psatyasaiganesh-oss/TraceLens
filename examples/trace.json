@@ -1,0 +1,32 @@
+{
+  "spans": [
+    {
+      "attributes": {
+        "http.route": "/items"
+      },
+      "duration_ns": 50000000,
+      "kind": "SERVER",
+      "name": "GET /items",
+      "parent_span_id": null,
+      "service": "gateway",
+      "span_id": "aaaaaaaaaaaaaaaa",
+      "start_ns": 1000000000,
+      "status": "OK",
+      "trace_id": "11111111111111111111111111111111"
+    },
+    {
+      "attributes": {
+        "cache.hit": false
+      },
+      "duration_ns": 20000000,
+      "kind": "CLIENT",
+      "name": "lookup",
+      "parent_span_id": "aaaaaaaaaaaaaaaa",
+      "service": "catalog",
+      "span_id": "bbbbbbbbbbbbbbbb",
+      "start_ns": 1005000000,
+      "status": "OK",
+      "trace_id": "11111111111111111111111111111111"
+    }
+  ]
+}

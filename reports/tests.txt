@@ -1,0 +1,13 @@
+Command: python -m unittest discover -v
+Runtime: Python 3.12.14
+Result: 68 tests passed; 0 failures; 0 errors
+Elapsed: 3.576 seconds
+
+Coverage areas:
+- strict span and trace-context validation
+- trace-tree invariants, clock-skew handling, interval union, latency attribution
+- transactional intake, duplicate/conflict semantics, bounded capacity
+- deterministic error/slow/probabilistic tail decisions and aggregate queries
+- SDK nesting, propagation, monotonic duration, exception/exporter behavior
+- live loopback HTTP authentication, body/schema limits, end-to-end API flow
+- CLI initialization, ingestion, finalization, overview, and structured errors

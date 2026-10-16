@@ -1,0 +1,30 @@
+{
+  "checked_at_local_date": "2026-10-16",
+  "environment": {
+    "docker": "not available in local runner; container validation delegated to GitHub Actions",
+    "external_credentials": false,
+    "python": "3.12.14",
+    "third_party_runtime_packages": false
+  },
+  "results": {
+    "compileall": {
+      "command": "python -m compileall -q tracelens tests",
+      "passed": true
+    },
+    "demo": {
+      "command": "python -m tracelens demo",
+      "duration_ms": 913.12,
+      "passed": true,
+      "report": "reports/demo.json"
+    },
+    "tests": {
+      "command": "python -m unittest discover -v",
+      "elapsed_seconds": 3.576,
+      "errors": 0,
+      "failures": 0,
+      "passed": 68,
+      "report": "reports/tests.txt"
+    }
+  },
+  "scope": "Local synthetic validation only; no production or Google workload was measured."
+}
